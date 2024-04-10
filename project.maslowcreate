@@ -20,6 +20,10 @@
         {
             "name": "y",
             "ioValue": 0
+        },
+        {
+            "name": "rotation",
+            "ioValue": 0
         }
     ],
     "topLevel": true,
@@ -113,7 +117,7 @@
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.7575757575757576,
-            "y": 0.4796238244514106,
+            "y": 0.48275862068965514,
             "uniqueID": 318104,
             "ioValues": [
                 {
@@ -146,8 +150,8 @@
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.8754208754208754,
-            "y": 0.6833855799373041,
+            "x": 0.6868686868686869,
+            "y": 0.664576802507837,
             "uniqueID": 900711,
             "ioValues": [
                 {
@@ -169,7 +173,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 900711
+                    "ioValue": 128973
                 }
             ]
         },
@@ -185,7 +189,7 @@
             "atomType": "Input",
             "name": "y",
             "x": 0.013333333333333334,
-            "y": 0.5,
+            "y": 0.2852664576802508,
             "uniqueID": 669138,
             "ioValues": []
         },
@@ -238,6 +242,39 @@
                     "ioValue": 0
                 }
             ]
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.813692480359147,
+            "y": 0.8181818181818181,
+            "uniqueID": 128973,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 900711
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Input",
+            "name": "rotation",
+            "x": 0.013333333333333334,
+            "y": 0.4984326018808777,
+            "uniqueID": 259501,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -334,10 +371,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 900711,
-            "ap2ID": 180439
+            "ap2ID": 128973
         },
         {
             "ap1Name": "number or geometry",
@@ -380,6 +417,20 @@
             "ap2Primary": true,
             "ap1ID": 764327,
             "ap2ID": 679835
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 128973,
+            "ap2ID": 180439
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "z-axis degrees",
+            "ap2Primary": false,
+            "ap1ID": 259501,
+            "ap2ID": 128973
         }
     ],
     "fileTypeVersion": 1,
