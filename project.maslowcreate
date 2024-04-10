@@ -1,0 +1,16 @@
+{
+    "atomType": "Molecule",
+    "name": "Round Corner cut-out",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 681335,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "fileTypeVersion": 1,
+    "simplify": false,
+    "unitsIndex": 0,
+    "filetypeVersion": 1,
+    "circleSegmentSize": 2
+}
